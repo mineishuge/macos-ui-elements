@@ -8,7 +8,6 @@ import subprocess
 keyword = None
 procname = None
 
-print(len(sys.argv))
 if len(sys.argv) == 2:
     script = "./get_all_UI_elements.applescript"
     keyword = sys.argv[1]
